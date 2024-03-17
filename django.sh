@@ -8,4 +8,4 @@ python manage.py migrate
 echo ====================================
 
 echo "Starting Server..."
-python manage.py test
+python manage.py runserver 0.0.0.0:8000
